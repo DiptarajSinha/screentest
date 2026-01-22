@@ -5,7 +5,7 @@
 
 ScreenTest is a CLI tool designed for CI/CD pipelines to automate UI testing across mobile, tablet, and desktop viewports. It generates a cinematic, Netflix-style HTML report for reviewing visual regressions.
 
-![ScreenTest Dashboard](https://via.placeholder.com/800x400?text=Cinematic+Dashboard+Preview)
+![ScreenTest Dashboard](preview.png)
 
 ## 🚀 Features
 - **Multi-Device Casting:** Automatically tests iPhone, iPad, and Desktop 1080p.
