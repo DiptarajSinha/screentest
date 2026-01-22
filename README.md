@@ -24,14 +24,17 @@ npx screentest-cli-diptaraj audition --url https://www.apple.com
 ### 2. Run an Audition (Test)
 To capture screenshots and compare them against baselines:
 ```bash
-node index.js audition --url https://www.apple.com
+npx screentest-cli-diptaraj audition --url https://www.apple.com
 ```
 
 ### 3. Update Baselines
 If the UI changes are intentional (e.g., a new feature release), use the update flag to overwrite the old baselines:
 ```bash
-node index.js audition --url https://www.apple.com --update
+npx screentest-cli-diptaraj audition --url https://www.apple.com --update
 ```
+
+### ⚡ Why this is better
+Copy **any** command from your documentation and paste it into your terminal, and it will work immediately—even if you haven't cloned my repository.
 
 ## 🏗️ Architecture
 - **Director:** Node.js CLI (Commander.js)
