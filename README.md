@@ -18,19 +18,19 @@ ScreenTest is a CLI tool designed for CI/CD pipelines to automate UI testing acr
 ### 1. Run an Audition (No Install Needed)
 Run the tool instantly using npx:
 ```bash
-npx screentest-cli-diptaraj audition --url [https://www.apple.com](https://www.apple.com)
+npx screentest-cli-diptaraj audition --url https://www.apple.com
 ```
 
 ### 2. Run an Audition (Test)
 To capture screenshots and compare them against baselines:
 ```bash
-node index.js audition --url [https://www.apple.com](https://www.apple.com)
+node index.js audition --url https://www.apple.com
 ```
 
 ### 3. Update Baselines
 If the UI changes are intentional (e.g., a new feature release), use the update flag to overwrite the old baselines:
 ```bash
-node index.js audition --url [https://www.apple.com](https://www.apple.com) --update
+node index.js audition --url https://www.apple.com --update
 ```
 
 ## 🏗️ Architecture
