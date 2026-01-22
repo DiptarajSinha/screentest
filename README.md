@@ -15,10 +15,10 @@ ScreenTest is a CLI tool designed for CI/CD pipelines to automate UI testing acr
 
 ## 🛠️ Usage
 
-### 1. Install
+### 1. Run an Audition (No Install Needed)
+Run the tool instantly using npx:
 ```bash
-npm install
-npx playwright install
+npx screentest-cli-diptaraj audition --url [https://www.apple.com](https://www.apple.com)
 ```
 
 ### 2. Run an Audition (Test)
