@@ -1,0 +1,6 @@
+node_modules/
+screentest/
+shots/
+dailies/
+report.html
+.DS_Store
